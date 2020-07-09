@@ -47,7 +47,7 @@ const MainMenu = (props) => {
         'https://eun1.api.riotgames.com/lol/platform/v3/champion-rotations',
         {
           headers: {
-            'X-Riot-Token': 'RGAPI-821371a7-7cee-488b-a6a0-708a7366b8c1',
+            'X-Riot-Token': 'RGAPI-d9ab0673-8925-4f21-82c6-ecbd01a8ca34',
           },
         },
       );
@@ -65,7 +65,7 @@ const MainMenu = (props) => {
         'https://eun1.api.riotgames.com/lol/league/v4/challengerleagues/by-queue/RANKED_SOLO_5x5',
         {
           headers: {
-            'X-Riot-Token': 'RGAPI-821371a7-7cee-488b-a6a0-708a7366b8c1',
+            'X-Riot-Token': 'RGAPI-d9ab0673-8925-4f21-82c6-ecbd01a8ca34',
           },
         },
       );
@@ -84,7 +84,7 @@ const MainMenu = (props) => {
         'https://eun1.api.riotgames.com/lol/league/v4/grandmasterleagues/by-queue/RANKED_SOLO_5x5',
         {
           headers: {
-            'X-Riot-Token': 'RGAPI-821371a7-7cee-488b-a6a0-708a7366b8c1',
+            'X-Riot-Token': 'RGAPI-d9ab0673-8925-4f21-82c6-ecbd01a8ca34',
           },
         },
       );
